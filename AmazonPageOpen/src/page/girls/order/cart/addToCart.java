@@ -52,7 +52,7 @@ public class addToCart {
 		driver.findElement(By.xpath(".//*[@id='ap_email']")).sendKeys("geethika.koneru67@gmail.com");
 		
 		Thread.sleep(5000);
-		driver.findElement(By.xpath(".//*[@id='ap_password']")).sendKeys("Loveurself@7");
+		driver.findElement(By.xpath(".//*[@id='ap_password']")).sendKeys("****");
 		
 		Thread.sleep(5000);
 		driver.findElement(By.xpath(".//*[@id='signInSubmit']")).click();
